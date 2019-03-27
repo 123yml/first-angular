@@ -1,0 +1,9 @@
+<div *ngIf='select'>
+  <h2>{{ select.name | uppercase}} Details</h2>
+  <div><span>id:</span>{{ select.id }}</div>
+  <div>
+    <label for="">name:
+      <input type="text" [(ngModel)]='select.name' placeholder="name">
+    </label>
+  </div>
+</div>
